@@ -62,5 +62,6 @@ public class InheritanceController
 		swap(position, high);
 		
 		return position;
+		
 	}
 }
