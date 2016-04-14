@@ -51,7 +51,7 @@ public class Change implements Exchange
 		}
 		
 		return comparedValue;
-	}
+	} 
 	
 	
 	public void amount(int currentMoney) 
