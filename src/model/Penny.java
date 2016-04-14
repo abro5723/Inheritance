@@ -21,25 +21,4 @@ public class Penny extends Change
 		return "";
 	}
 	
-	public int compareTo(Object compared)
-	{
-		int comparedValue = Integer.MIN_VALUE;
-		
-		{
-			if(this.change() > ((Exchange) compared).change())
-			{
-				comparedValue = 1;
-			}
-			else if(this.change() < ((Exchange) compared).change())
-			{
-				comparedValue = -1;
-			}
-			else
-			{
-				comparedValue = 0;
-			}
-		}
-		
-		return comparedValue;
-	}
 }
